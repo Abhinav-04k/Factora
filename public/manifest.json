@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Factora Extension",
+  "version": "1.0",
+  "description": "AI-powered misinformation detection and contextual awareness system.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Factora"
+  },
+  "host_permissions": ["*://*/*"],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
